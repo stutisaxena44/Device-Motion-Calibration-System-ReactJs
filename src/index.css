@@ -1,0 +1,36 @@
+/* Core Layout Reset for ITM Skills University Hardware Testing */
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(circle at top left, rgba(184, 243, 255, 0.4) 0%, transparent 40%),
+    radial-gradient(circle at bottom right, rgba(138, 198, 208, 0.3) 0%, transparent 35%),
+    #fcfbfa;
+  font-family: "Times New Roman", Times, serif;
+  background-attachment: fixed;
+  /* FIX: Forces Android layout engines to explicitly initiate vertical page scrolling */
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
