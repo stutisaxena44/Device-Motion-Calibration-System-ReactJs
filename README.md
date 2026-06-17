@@ -2,7 +2,7 @@
 
 A frontend-only ReactJS web app that turns a phone's motion sensors into a live 3D telemetry lab — intercepting the browser's Device Orientation / Motion API, calibrating and smoothing the raw angular stream, and mirroring your physical device as a 3D chassis in real time. Built with React 19 + Vite, zero backend, zero network calls.
 
-🔗 **Live Demo:** https://stutisaxena44.github.io/motion-calibration-sandbox/
+🔗 **Live Demo:** https://device-motion-calibration-system-re.vercel.app
 
 > Open the live link in **Safari on iPhone** for the full hardware experience. Tap **Connect iPhone Sensors → Allow** (iOS needs HTTPS + a tap to grant motion access — GitHub Pages serves HTTPS, so it works).
 
