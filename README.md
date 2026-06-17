@@ -71,11 +71,6 @@ Phone motion sensors require **HTTPS**. Easiest path is the live GitHub Pages UR
 
 ---
 
-## 🌐 Deployment (GitHub Pages)
-
-Deployment is automated — every push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds with Vite and publishes `dist/` to GitHub Pages. The Vite `base` is set to `/motion-calibration-sandbox/` in [`vite.config.js`](vite.config.js) so asset paths resolve under the project subpath. If you fork under a different repo name, update `base` to match.
-
----
 
 ## 👨‍💻 Author
 
